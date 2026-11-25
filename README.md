@@ -1,5 +1,12 @@
 # abcapsp26TuThT1
 
+> **My contributions (Mostafa Amer):** this is a fork of the team's Penn State Abington senior capstone (Spring 2026, 10+ contributors). The parts I built:
+> - **Maze "brains"** ([`maze_brain/`](maze_brain/), [`maze_brain2/`](maze_brain2/)): AI and A* decision-makers that turn live maze telemetry into robot moves.
+> - **Telemetry pipeline** ([`maze/maze_sdl2.c`](maze/maze_sdl2.c), [`vector/telemetry_redis.md`](vector/telemetry_redis.md)): the SDL2 maze app streams JSON telemetry and mission data to the AI server, which stores it in Redis for the brains.
+> - **Robot integration** ([`robot/ros_bridge_node.py`](robot/ros_bridge_node.py), `robot/start_minipupper_listener.sh`): wired maze-brain decisions to the Mini Pupper listener over a ROS bridge.
+> - **Ops** (`run_everything.sh`, `scripts/start_maze_brain_forward_robot.sh`, [`robot/AI_MAZE_SOLVER_README.md`](robot/AI_MAZE_SOLVER_README.md)): one-command startup and the AI maze-solver runbook.
+
+
 # 🐾 Mini-Pupper Swarm Exploration with Secure AI-RAG Diagnostics
 
 **Senior Capstone – Spring 2026 Tuesday and Thursday Team 1**  
